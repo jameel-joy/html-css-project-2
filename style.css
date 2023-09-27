@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+ul li{
+    font-weight: 900;   
+}
+section{
+    display: flex;
+}
+.left-section{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.right-section{
+    padding: 30px;
+}
+h1{
+    font-size: 60px;
+}
+span{
+    color: blueviolet;
+}
+button{
+    color: #fff;
+    background-color: rgb(120, 16, 218);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0px;
+}
+button:hover{
+    background-color: rgb(180, 138, 219);
+    cursor: pointer;
+}
